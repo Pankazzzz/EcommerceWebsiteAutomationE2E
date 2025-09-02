@@ -27,7 +27,7 @@ public class SmokeTest_2 {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
 			driver.findElement(By.linkText("My Account")).click();
 			Random random=new Random();
-			String emailString = "demo"+random.nextInt(0,2999)+"@demo.com";
+			String emailString = "demo"+random.nextInt()+"@demo.com";
 			driver.findElement(By.id("reg_email")).sendKeys(emailString);
 			driver.findElement(By.id("reg_password")).sendKeys("demoA123@ad5!");
 			driver.findElement(By.id("reg_password")).sendKeys(Keys.TAB);
@@ -49,7 +49,7 @@ public class SmokeTest_2 {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
 			driver.findElement(By.linkText("My Account")).click();
 			Random random=new Random();
-			String emailString = "demo"+random.nextInt(0,2999)+"@demo.com";
+			String emailString = "demo"+random.nextInt()+"@demo.com";
 			driver.findElement(By.id("username")).sendKeys(emailString);
 			driver.findElement(By.id("password")).sendKeys("demoA123@ad5!");
 			driver.findElement(By.id("password")).sendKeys(Keys.TAB);
@@ -77,7 +77,7 @@ public class SmokeTest_2 {
 		@Test
 		public void testCase3()
 		{
-		
+			//Ketan Branch
 			WebDriver driver = new ChromeDriver();
 			driver.get("http://practice.automationtesting.in/");
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

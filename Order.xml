@@ -1,0 +1,21 @@
+<suite name="Suite">
+  
+  <test thread-count="5" parallel="classes" name="Test">
+  
+    <listeners>
+      <listener class-name="BaseUtilties.ListenerClass"/>
+    </listeners>
+  
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+  
+    <classes>
+      <class name="FunctionalTestcasesPOM.FrameWorkSmokeTest"/>
+      <class name="FunctionalTestcasesPOM.FrameWorkSmokeTest2"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

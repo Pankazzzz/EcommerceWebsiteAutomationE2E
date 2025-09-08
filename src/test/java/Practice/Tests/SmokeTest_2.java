@@ -74,7 +74,7 @@ public class SmokeTest_2 {
 		}
 		
 		
-		@Test
+		//@Test
 		public void testCase3()
 		{
 		
@@ -92,6 +92,26 @@ public class SmokeTest_2 {
 			driver.navigate().back(); 
 			
 			driver.findElement(By.xpath("//h2[text()='Login']")).isDisplayed();
+			driver.close();
+		
+		}
+
+		
+		@Test
+		public void testCase4()
+		{
+		
+			WebDriver driver = new ChromeDriver();
+			driver.get("http://practice.automationtesting.in/");
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			driver.manage().window().maximize();
+			driver.findElement(By.xpath("//li[@id='menu-item-50']/a[contains(text(),'Account')]")).click();
+			driver.findElement(By.id("username")).sendKeys("ketan@ketan.com");
+			driver.findElement(By.name("password")).sendKeys("Ketan@9022!");
+			driver.findElement(By.cssSelector("input[value='Login']")).click();
+			
+			driver.findElement(By.linkText("Account Details")).click();
+			driver.findElement(By.partialLinkText("Logou")).click();
 			driver.close();
 		
 		}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="BaseUtilties.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="FunctionalTestcasesPOM.FrameWorkSmokeTest2">
+        <methods>
+          <include name="addReview04" invocation-numbers="0"/>
+          <include name="lastFunction"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- FunctionalTestcasesPOM.FrameWorkSmokeTest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

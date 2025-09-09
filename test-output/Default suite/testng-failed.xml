@@ -3,11 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="Practice.Tests.SmokeTest_4">
         <methods>
           <include name="testCase2"/>
         </methods>
       </class> <!-- Practice.Tests.SmokeTest_4 -->
+=======
+      <class name="FunctionalTestcasesPOM.SmokeTest_1">
+        <methods>
+          <include name="lastFunction"/>
+          <include name="testCase5"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- FunctionalTestcasesPOM.SmokeTest_1 -->
+>>>>>>> 9887f5d5b19f9b688fc213816a723f2dcb723db6
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

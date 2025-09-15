@@ -9,6 +9,8 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.logging.FileHandler;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -28,6 +30,9 @@ public class BaseTest {
 	public String siteNameString;
 	public LandPageClass landPageClass;
 	public PageObjectClass pageObjectClass;
+	
+	public static final Logger logger = LogManager.getLogger();
+
 	
 	public  WebDriver setup() throws Exception
 	{

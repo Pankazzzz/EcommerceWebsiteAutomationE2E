@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FunctionalTestcasesPOM.SmokeTest_1">
+      <class name="FunctionalTestcasesPOM.FrameWorkSmokeTest3">
         <methods>
           <include name="lastFunction"/>
-          <include name="testCase5"/>
           <include name="init"/>
+          <include name="e2EFlow08" invocation-numbers="0"/>
         </methods>
-      </class> <!-- FunctionalTestcasesPOM.SmokeTest_1 -->
+      </class> <!-- FunctionalTestcasesPOM.FrameWorkSmokeTest3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

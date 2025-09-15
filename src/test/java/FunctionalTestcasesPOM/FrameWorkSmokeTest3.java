@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.lang.annotation.Documented;
 import java.lang.reflect.Method;
 import java.time.Duration;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
@@ -46,12 +47,14 @@ public class FrameWorkSmokeTest3 extends BaseTest{
 	public void e2EFlow08(Method m) throws InterruptedException, IOException
 	{
 		//---------------------------- Commmon StartDocument -----------------------------//
+		logger.info("Reading Excel data started");
 		
 		Properties properties = GetTestCaseDetails.getTestCaseDetails();
 		String testCaseNameString = properties.getProperty(m.getName());
 		HashMap<String, String> testCaseDataHashMap;
 		HashMap<String, String> dataHashMap =GetExcelData.getDataForTheTestCase(testCaseNameString);
 		System.out.println(dataHashMap);
+		System.out.println(Arrays.deepToString(GetExcelData.getAllData()));
 		
 		//---------------------------- Commmon EndDocument -----------------------------//
 		

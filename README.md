@@ -13,9 +13,12 @@ Java 8 • Selenium WebDriver • TestNG • Maven • WebDriverManager • Log4
 
 ---
 
+---
+
 ## 📂 Project Structure
 
-```
+
+
 src/main/java
 ├─ AbstractHelper/ # app utilities
 ├─ CommonObjectClasses/ # reusable UI objects
@@ -35,7 +38,7 @@ test-output/ # TestNG results (gitignored)
 pom.xml
 testng.xml
 
-````
+
 
 ---
 

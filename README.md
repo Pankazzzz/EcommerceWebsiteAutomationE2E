@@ -15,8 +15,10 @@ Java 8 • Selenium WebDriver • TestNG • Maven • WebDriverManager • Log4
 
 ## 📂 Project Structure
 
-```
 <img width="2470" height="1486" alt="image" src="https://github.com/user-attachments/assets/fca575ec-b441-4cbd-9b66-7680ab78cc35" />
+
+
+```
 
 src/main/java
 ├─ AbstractHelper/           # app utilities

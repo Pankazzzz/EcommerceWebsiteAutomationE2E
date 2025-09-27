@@ -15,9 +15,6 @@ Java 8 • Selenium WebDriver • TestNG • Maven • WebDriverManager • Log4
 
 ---
 
-## Snippet
-<img src="https://github.com/user-attachments/assets/6271a80a-58fb-44c3-bcec-ac868201be43" width="800">
-
 
 ## 📂 Project Structure
 
@@ -101,6 +98,8 @@ mvn -Dtest=FunctionalTestcasesPOM.FrameWorkSmokeTest3#shouldAddProductToCartAndP
 ## 🖼️ Demo
 
 A sample end-to-end flow (Shop → add product → checkout) is recorded below:
+![flow](https://github.com/user-attachments/assets/64c40191-dffb-46ad-98a3-ca58d51c124b)
+
 
 
 https://github.com/user-attachments/assets/65f851d2-25c0-4d2c-a271-eb72d9af1229

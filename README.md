@@ -15,8 +15,9 @@ Java 8 • Selenium WebDriver • TestNG • Maven • WebDriverManager • Log4
 
 ---
 
-<img width="2470" height="1486" alt="image" src="https://github.com/user-attachments/assets/df164cdf-4c43-4a3a-ba54-4ca292f7932b" />
 
+## 🖼️ Demo
+<img width="2470" height="1486" alt="image" src="https://github.com/user-attachments/assets/df164cdf-4c43-4a3a-ba54-4ca292f7932b" />
 
 ## 📂 Project Structure
 

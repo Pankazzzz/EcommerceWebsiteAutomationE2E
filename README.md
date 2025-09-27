@@ -16,23 +16,22 @@ Java 8 • Selenium WebDriver • TestNG • Maven • WebDriverManager • Log4
 ## 📂 Project Structure
 
 ```
-
 src/main/java
-├─ AbstractHelper/           # app utilities
-├─ CommonObjectClasses/      # reusable UI objects
-├─ DataResources/            # Excel/JSON/property test data
-├─ ExcelDataUtil/            # Excel helper classes
-├─ PageObjects/              # Page Object classes (Shop, Cart, etc)
-src/main/resources            # log4j, sample properties, roadmap
+├─ AbstractHelper/ # app utilities
+├─ CommonObjectClasses/ # reusable UI objects
+├─ DataResources/ # Excel/JSON/property test data
+├─ ExcelDataUtil/ # Excel helper classes
+├─ PageObjects/ # Page Object classes (Shop, Cart, etc)
+src/main/resources # log4j, sample properties, roadmap
 src/test/java
-├─ BaseBrowserHelper/        # WebDriver bootstrap & env setup
-├─ BaseUtilities/            # listeners, report config
-├─ DataReaderFunctions/      # providers (Excel, JSON)
-├─ FunctionalTestcasesPOM/   # test classes (FrameWorkSmokeTest*.java)
-logs/                         # local logs (gitignored)
-Reports/                      # generated test reports (gitignored)
-target/                       # maven build output (gitignored)
-test-output/                  # TestNG results (gitignored)
+├─ BaseBrowserHelper/ # WebDriver bootstrap & env setup
+├─ BaseUtilities/ # listeners, report config
+├─ DataReaderFunctions/ # providers (Excel, JSON)
+├─ FunctionalTestcasesPOM/ # test classes (FrameWorkSmokeTest*.java)
+logs/ # local logs (gitignored)
+Reports/ # generated test reports (gitignored)
+target/ # maven build output (gitignored)
+test-output/ # TestNG results (gitignored)
 pom.xml
 testng.xml
 

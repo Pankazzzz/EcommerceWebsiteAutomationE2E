@@ -1,0 +1,23 @@
+# Build & test output
+target/
+test-output/
+logs/
+*.log
+
+# IDE / Eclipse
+.settings/
+.project
+.classpath
+*.classpath
+*.launch
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+node_modules/

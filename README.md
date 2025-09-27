@@ -1,13 +1,9 @@
+## 🖼️ Snippet
 ![flow](https://github.com/user-attachments/assets/64c40191-dffb-46ad-98a3-ca58d51c124b)
+
 
 ```markdown
 # Practice + Amazon E2E Automation Framework
-
-## 🖼️ Snippet
-
-A sample end-to-end flow (Shop → add product → checkout) is recorded below:
-
-
 
 ![Build](https://github.com/<your-username>/AmazonEndToEndFlow/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/github/license/<Pankaj>/AmazonEndToEndFlow)

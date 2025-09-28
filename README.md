@@ -3,14 +3,13 @@
 
 
 ```markdown
-# Practice + Amazon E2E Automation Framework
+# Practice 
 
 ![Build](https://github.com/<your-username>/AmazonEndToEndFlow/actions/workflows/ci.yml/badge.svg)
-![License](https://img.shields.io/github/license/<Pankaj>/AmazonEndToEndFlow)
+![License](https://img.shields.io/github/license/Pankaj/AmazonEndToEndFlow)
 
 End-to-end **test automation framework** built in Java to validate:
 - `https://practice.automationtesting.in/` (demo practice site)
-- Amazon workflows (search → add to cart → checkout simulation)
 
 **Tech stack:**  
 Java 8 • Selenium WebDriver • TestNG • Maven • WebDriverManager • Log4j2 • (Extent/Allure optional)
